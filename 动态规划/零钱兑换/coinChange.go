@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 //322. 零钱兑换
-//F(i) 为组成金额 i 所需最少的硬币数量
+//dp[i] 为组成金额 i 所需最少的硬币数量
 func coinChange(coins []int, amount int) int {
 	dp := make([]int, amount+1)
 	for i := 0; i < len(dp); i++ {
@@ -12,6 +12,7 @@ func coinChange(coins []int, amount int) int {
 	dp[0] = 0
 
 	for i := 1; i <= amount; i++ {
+		//计算coins中的情况，求最小值
 		for j := 0; j < len(coins); j++ {
 			if coins[j] <= i {
 				dp[i] = min(dp[i], dp[i-coins[j]]+1)

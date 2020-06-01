@@ -17,6 +17,7 @@ type TreeNode struct {
  * }
  */
 //给定一个二叉树, 找到该树中两个指定节点的最近公共祖先。
+//这个是这样解吗？
 func lowestCommonAncestor(root, p, q *TreeNode) *TreeNode {
 	if root == nil || root == p || root == q {
 		return root

@@ -20,6 +20,7 @@ func inorderTraversal(root *TreeNode) []int {
 			cur = cur.Left
 		}
 		cur = stack[len(stack)-1:][0]
+		//fmt.Println(cur.Val)
 		stack = stack[:len(stack)-1] // 出栈
 		result = append(result, cur.Val)
 		cur = cur.Right
@@ -27,6 +28,13 @@ func inorderTraversal(root *TreeNode) []int {
 	return result
 }
 
+/**
+	  3
+	 / \
+	9  20
+   / \ / \
+  15 7 1  6
+ */
 func main() {
 	// -----------二叉树-----------------
 	node3 := &TreeNode{Val: 15}

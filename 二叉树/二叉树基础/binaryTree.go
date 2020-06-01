@@ -22,7 +22,13 @@ func preOrderTraverse(tree *TreeNode) {
 
 //非递归前序遍历
 func NpreOrderTraverse(tree *TreeNode) {
-
+	if tree == nil {
+		return
+	} else {
+		fmt.Print(tree.Data, " ")
+		preOrderTraverse(tree.Rchild)
+		preOrderTraverse(tree.Lchild)
+	}
 }
 
 //中序遍历： 左 ---> 根 --->右
@@ -55,12 +61,19 @@ func postTraverse(tree *TreeNode) {
  */
 func main() {
 	// -----------二叉树-----------------
-	node3 := &TreeNode{Data: 15}
-	node4 := &TreeNode{Data: 7}
-	node5 := &TreeNode{Data: 1}
-	node1 := &TreeNode{Data: 9, Lchild: node3, Rchild: node4}
-	node2 := &TreeNode{Data: 20, Lchild: node5}
-	root := TreeNode{Data: 3, Lchild: node1, Rchild: node2}
+
+	node6 := &TreeNode{Data: 3}
+	node3 := &TreeNode{Data: 3}
+	node4 := &TreeNode{Data: 4}
+	node5 := &TreeNode{Data: 4}
+	node1 := &TreeNode{Data: 2, Lchild: node3, Rchild: node4}
+	node2 := &TreeNode{Data: 2, Lchild: node5, Rchild: node6}
+
+	//node1 := &TreeNode{Val: 2, Left: nil, Right: node3}
+	//node2 := &TreeNode{Val: 2, Left: nil, Right: node6}
+
+	root := &TreeNode{Data: 1, Lchild: node1, Rchild: node2}
+
 	//root.Lchild = &TreeNode{Data: 9}
 	//root.Rchild = &TreeNode{Data: 20}
 	//root.Lchild.Lchild = &TreeNode{Data: 15}
@@ -68,11 +81,14 @@ func main() {
 	//root.Rchild.Lchild = &TreeNode{Data: 1}
 
 	fmt.Print("前序遍历：")
-	preOrderTraverse(&root)
+	preOrderTraverse(root)
 
-	fmt.Print("\n中序遍历：")
-	inOrderTraverse(&root)
+	fmt.Print("\n反前序遍历：")
+	NpreOrderTraverse(root)
 
-	fmt.Print("\n后序遍历：")
-	postTraverse(&root)
+	//fmt.Print("\n中序遍历：")
+	//inOrderTraverse(&root)
+	//
+	//fmt.Print("\n后序遍历：")
+	//postTraverse(&root)
 }
