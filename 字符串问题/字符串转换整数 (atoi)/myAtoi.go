@@ -1,27 +1,20 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strings"
+)
 
 //8. 字符串转换整数 (atoi)
 func myAtoi(str string) int {
-	if len(str) == 0 {
+	str = strings.TrimSpace(str)
+	if len(str) == 0{
 		return 0
 	}
-	//去除字符串前的空格
-	for i := 0; i < len(str); {
-		if str[i]-'0' == 240 {
-			i++
-		} else {
-			str = str[i:]
-			break
-		}
-		if i == len(str)-1 {
-			return 0
-		}
-	}
+
 	var b int
-	if str[0]-'0' == 251 || str[0]-'0' == 253 {
-		b = int(str[0] - '0')-252
+	if str[0] == '+' || str[0] == '-' {
+		b = int(str[0]-'0') - 252
 		str = str[1:]
 		if len(str) == 0 {
 			return 0
@@ -34,15 +27,18 @@ func myAtoi(str string) int {
 	//计算字符串数字
 	sum := int(str[0] - '0')
 	//加符号
-	if b == 253 {
+	if b == 1 {
 		sum = 0 - sum
+		b = -1
+	} else {
+		b = 1
 	}
 	for i := 1; i < len(str); i++ {
 		if int(str[i]-'0') > 9 {
 			break
 		}
 		sum = sum * 10
-		sum += int(str[i] - '0')
+		sum = sum + b*int(str[i]-'0')
 		//加限制条件
 		if sum > 1<<31-1 {
 			return 1<<31 - 1
@@ -56,6 +52,6 @@ func myAtoi(str string) int {
 }
 
 func main() {
-	str := "   -42"
+	str := " "
 	fmt.Println(myAtoi(str))
 }
