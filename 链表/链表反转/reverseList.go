@@ -13,15 +13,12 @@ func reverseList(head *ListNode) *ListNode {
 	if head == nil || head.Next == nil {
 		return head
 	}
-
-	prehead := head
-	cur := head.Next
-	prehead.Next = nil //步骤可不能调换了
-	for cur != nil {
-		next := cur.Next
-		cur.Next = prehead
-		prehead = cur
-		cur = next
+	var prehead *ListNode
+	for head != nil {
+		next := head.Next
+		head.Next = prehead
+		prehead = head
+		head = next
 	}
 
 	return prehead
@@ -51,5 +48,13 @@ func main() {
 	link1 := ListNode{1, &link2}
 
 	link1.PrintLink()
+	//s复制的是一个节点
+	s := link2
+	s.Val = 100
+	s.PrintLink()
+	link1.PrintLink()
+	fmt.Println("反转链表：")
 	reverseList(&link1).PrintLink()
+	fmt.Println("s的值：")
+	s.PrintLink()
 }

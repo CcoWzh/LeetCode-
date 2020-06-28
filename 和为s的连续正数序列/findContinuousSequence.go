@@ -24,5 +24,5 @@ func findContinuousSequence(target int) [][]int {
 }
 
 func main() {
-	fmt.Println(findContinuousSequence(3))
+	fmt.Println(findContinuousSequence(9))
 }

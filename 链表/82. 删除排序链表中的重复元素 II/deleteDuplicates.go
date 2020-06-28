@@ -31,6 +31,8 @@ func deleteDuplicates(head *ListNode) *ListNode {
 			preHead = preHead.Next
 			head = head.Next
 		} else {
+			//记录已经删除的值，用于后续节点判断
+			//这一步是最关键的
 			curVal := head.Val
 			for head.Val == curVal && head.Next != nil {
 				head = head.Next

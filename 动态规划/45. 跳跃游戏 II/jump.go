@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-//跳跃游戏 II
+//45. 跳跃游戏 II
 func jump(nums []int) int {
 	n := len(nums)
 	if n == 1 {
