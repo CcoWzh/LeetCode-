@@ -60,7 +60,6 @@ func QuickSort(nums []int, left, right int) []int {
 
 func Paritition(nums []int, low, height int) int {
 	pivot := nums[low]
-
 	for low < height {
 		for low < height && nums[height] >= pivot {
 			height--
