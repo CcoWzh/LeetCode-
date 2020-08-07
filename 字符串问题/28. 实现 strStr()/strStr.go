@@ -10,10 +10,10 @@ import "fmt"
 func strStr(haystack string, needle string) int {
 	n, m := len(haystack), len(needle)
 	//当 needle 是空字符串时，我们应当返回什么值呢
-	if m == 0  {
+	if m == 0 {
 		return 0
 	}
-
+	//似乎，这个也是可以使用指针的吧
 	for i := 0; i < n; i++ {
 		if haystack[i] == needle[0] && n-i >= m {
 			//匹配

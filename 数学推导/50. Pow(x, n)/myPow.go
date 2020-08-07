@@ -45,5 +45,5 @@ func compute(x float64, n int) float64 {
 }
 
 func main() {
-	fmt.Println(myPow(0.00001, 2147483647))
+	fmt.Println(myPow(0.00000, -1))
 }
