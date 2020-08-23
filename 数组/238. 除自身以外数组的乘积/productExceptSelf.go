@@ -10,6 +10,7 @@ func productExceptSelf(nums []int) []int {
 	if n == 0 {
 		return nil
 	}
+	//前缀+后缀
 	pre := make([]int, n)
 	suf := make([]int, n)
 	result := make([]int, n)

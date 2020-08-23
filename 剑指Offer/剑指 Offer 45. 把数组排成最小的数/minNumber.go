@@ -18,7 +18,7 @@ func minNumber(nums []int) string {
 			}
 		}
 	}
-	//fmt.Println(nums)
+	fmt.Println(nums)
 	var result string
 	for i := 0; i < n; i++ {
 		result += strconv.Itoa(nums[i])
