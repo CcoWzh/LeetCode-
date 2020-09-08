@@ -50,18 +50,15 @@ func(this *papapa)sink(index int){
 	maxIndex := len(*this)-1
 
 	if maxIndex>=2*index+1{
-
 		//找出子节点最大的
 		max := 2*index
 		if (*this)[2*index+1]>(*this)[2*index]{
 			max = 2*index+1
 		}
-
 		if (*this)[index] < (*this)[max]{
 			(*this)[index],(*this)[max] = (*this)[max],(*this)[index]
 			this.sink(max)
 		}
-
 	}else if maxIndex>=2*index{
 		if (*this)[index] < (*this)[2*index]{
 			(*this)[index],(*this)[2*index] = (*this)[2*index],(*this)[index]

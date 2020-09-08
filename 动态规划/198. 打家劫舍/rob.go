@@ -23,6 +23,7 @@ func rob(nums []int) int {
 	//max(nums[0], nums[1])这一步没有想到
 	dp[0], dp[1] = nums[0], max(nums[0], nums[1])
 	for i := 2; i < n; i++ {
+		//不抢, 抢
 		dp[i] = max(dp[i-1], dp[i-2]+nums[i])
 	}
 

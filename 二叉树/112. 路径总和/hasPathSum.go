@@ -44,34 +44,6 @@ func hasPathSum(root *TreeNode, sum int) bool {
 	return false
 }
 
-//func hasPathSum(root *TreeNode, sum int) bool {
-//	if root == nil {
-//		return false
-//	}
-//	path := make([]int, 0)
-//	curSum := 0
-//	code := false
-//	find(root, sum, curSum, path, code)
-//	return code
-//}
-//
-//func find(root *TreeNode, sum, curSum int, path []int, code bool) {
-//	curSum += root.Val
-//	path = append(path, root.Val)
-//	if curSum == sum && root.Right == nil && root.Left == nil {
-//		fmt.Println(path)
-//		code = true
-//	}
-//
-//	if root.Left != nil {
-//		find(root.Left, sum, curSum, path, code)
-//	}
-//	if root.Right != nil {
-//		find(root.Right, sum, curSum, path, code)
-//	}
-//	path = path[:len(path)-1]
-//}
-
 /**
 	  1
 	 / \

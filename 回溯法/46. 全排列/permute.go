@@ -6,7 +6,6 @@ import (
 
 //这里声明一个全局变量用来存储所有的排列
 var result [][]int
-var n int
 
 //全排列
 func permute(nums []int) [][]int {
@@ -41,6 +40,6 @@ func backtrack(nums, track []int, n int) {
 }
 
 func main() {
-	nums := []int{5, 4, 6, 2}
+	nums := []int{4, 6, 7, 7}
 	fmt.Println(permute(nums))
 }

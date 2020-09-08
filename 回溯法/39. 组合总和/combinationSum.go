@@ -7,7 +7,7 @@ import (
 
 var result [][]int
 
-//39. 39. 组合总和
+//39. 组合总和
 func combinationSum(candidates []int, target int) [][]int {
 	result = make([][]int, 0)
 	sort.Ints(candidates)

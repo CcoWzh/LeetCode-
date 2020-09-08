@@ -49,7 +49,42 @@ func findErrorNums(nums []int) []int {
 
 异或运算也是常用的，因为异或性质`a ^ a = 0, a ^ 0 = a`，如果将索引和元素同时异或，就可以消除成对儿的索引和元素，留下的就是重复或者缺失的元素。可以看看前文「[寻找缺失元素](http://mp.weixin.qq.com/s?__biz=MzAxODQxMDM0Mw==&mid=2247484477&idx=1&sn=13834cfd618377385226c3dc598b2c28&chksm=9bd7fa35aca0732374dc34c78c276b982605892caf69cb31ad9a6c3685de5dbccac81989b195&scene=21#wechat_redirect)」，介绍过这种方法。
 
+----
 
+这题，还能有更高效的解法，将空间复杂度降低：
+
+利用数组和下标的特点，把数组当成`map`：
+
+```go
+func findErrorNums(nums []int) []int {
+	a, b := 0, 0 //a:重复的数字，b:缺失的数字
+	n := len(nums)
+	for i := 0; i < n; i++ {
+		index := abs(nums[i]) - 1 //1到n的整数,不会越界
+		if nums[index] < 0 {
+			a = index + 1
+		} else {
+			//注意，这里是由于题目限制，才敢使用相反数标记以及遍历过了
+			//不然，这个也得加绝对值后变负数
+			nums[index] *= -1
+		}
+	}
+
+	for i := 0; i < n; i++ {
+		if nums[i] > 0 {
+			b = i + 1
+		}
+	}
+	return []int{a, b}
+}
+
+func abs(a int) int {
+	if a < 0 {
+		a = -a
+	}
+	return a
+}
+```
 
 参考
 

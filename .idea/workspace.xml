@@ -15,40 +15,51 @@
       <change afterPath="$PROJECT_DIR$/../consensus/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../consensus/PBFT/main.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../consensus/POW/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/二分查找/34. 在排序数组中查找元素的第一个和最后一个位置/searchRange.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/二叉树/109. 有序链表转换二叉搜索树/sortedListToBST.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/二叉树/111. 二叉树的最小深度/minDepth.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/位运算/201. 数字范围按位与/rangeBitwiseAnd.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/剑指Offer/剑指 Offer 25. 合并两个排序的链表/mergeTwoLists.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/动态规划/1029. 两地调度/twoCitySchedCost.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/动态规划/152. 乘积最大子数组/maxProduct.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/动态规划/416. 分割等和子集/canPartition.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/动态规划/518. 零钱兑换 II/change.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/动态规划/926. 将字符串翻转到单调递增/minFlipsMonoIncr.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/单调栈/496. 下一个更大元素 I/nextGreaterElement.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/单调栈/581. 最短无序连续子数组/findUnsortedSubarray.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/单调栈/739. 每日温度/dailyTemperatures.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/单调栈/84. 柱状图中最大的矩形/largestRectangleArea.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/双指针的使用/18. 四数之和/fourSum.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/双指针的使用/454. 四数相加 II/fourSumCount.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/双指针的使用/647. 回文子串/countSubstrings.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/双指针的使用/88. 合并两个有序数组/merge.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/回溯法/130. 被围绕的区域/solve.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/回溯法/22. 括号生成/generateParenthesis.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/回溯法/31. 下一个排列/nextPermutation.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/回溯法/93. 复原IP地址/restoreIpAddresses.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图/743. 网络延迟时间/networkDelayTime.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/字典树/208. 实现 Trie (前缀树)/Trie.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/字符串问题/49. 字母异位词分组/groupAnagrams.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/字符串问题/696. 计数二进制子串/countBinarySubstrings.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/广度(深度)优先搜索/529. 扫雷游戏/updateBoard.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/广度(深度)优先搜索/679. 24 点游戏/judgePoint24.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/广度(深度)优先搜索/733. 图像渲染/floodFill.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数学推导/166. 分数到小数/fractionToDecimal.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数组/134. 加油站/canCompleteCircuit.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数组/179. 最大数/largestNumber.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数组/442. 数组中重复的数据/findDuplicates.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/栈问题/20. 有效的括号/isValid.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/二分查找/162. 寻找峰值/findPeakElement.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/二分查找/240. 搜索二维矩阵 II/searchMatrix.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/二叉树/105. 从前序与中序遍历序列构造二叉树/buildTree.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/二叉树/107. 二叉树的层次遍历 II/levelOrderBottom.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/二叉树/257. 二叉树的所有路径/binaryTreePaths.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/二叉树/538. 把二叉搜索树转换为累加树/convertBST.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/二叉树/98. 验证二叉搜索树/isValidBST.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/二叉树/二叉树的前序遍历/preorderTraversal.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/二叉树/二叉树的后序遍历/postorderTraversal.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/位运算/231. 2的幂/isPowerOfTwo.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/位运算/338. 比特位计数/countBits.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/动态规划/122. 买卖股票的最佳时机 II/maxProfit.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/动态规划/221. 最大正方形/maximalSquare.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/动态规划/494. 目标和/findTargetSumWays.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/动态规划/55. 跳跃游戏/canJump.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/双指针/11. 盛最多水的容器/maxArea.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/双指针/202. 快乐数/isHappy.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/双指针/38. 外观数列/countAndSay.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/双指针/438. 找到字符串中所有字母异位词/findAnagrams.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/回溯法/131. 分割回文串/partition.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/回溯法/77. 组合/combine.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/图/1557. 可以到达所有点的最少点数目/findSmallestSetOfVertices.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/图/332. 重新安排行程/findItinerary.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/图/841. 钥匙和房间/canVisitAllRooms.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/字符串问题/459. 重复的子字符串/repeatedSubstringPattern.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/字符串问题/557. 反转字符串中的单词 III/reverseWords.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/广度(深度)优先搜索/199. 二叉树的右视图/rightSideView.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/广度(深度)优先搜索/491. 递增子序列/findSubsequences.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数学推导/204. 计数质数/countPrimes.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据结构/155. 最小栈/MinStack.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数组/283. 移动零/moveZeroes.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数组/347. 前 K 个高频元素/topKFrequent.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数组/406. 根据身高重建队列/reconstructQueue.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数组/41. 缺失的第一个正数/firstMissingPositive.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数组/48. 旋转图像/rotate.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数组/560. 和为K的子数组/subarraySum.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模拟/1323. 6 和 9 组成的最大数字/maximum69Number.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模拟/575. 分糖果/distributeCandies.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模拟/657. 机器人能否返回原点/judgeCircle.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模拟/66. 加一/plusOne.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模拟/7. 整数反转/reverse.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/链表/148. 排序链表/sortList.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/链表/160. 相交链表/getIntersectionNode.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/链表/2. 两数相加/addTwoNumbers.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/链表/61. 旋转链表/rotateRight.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../nowcoder/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../nowcoder/QQ/QQ5.素数对/Euler.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../nowcoder/京东/D10.两个子串/twoString.go" afterDir="false" />
@@ -81,6 +92,7 @@
       <change afterPath="$PROJECT_DIR$/../nowcoder/小米/XM8.最少立方数之和/leastCubes.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../nowcoder/滴滴/DD4.末尾0的个数/endZero.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../nowcoder/滴滴/DD6.数字和为sum的方法数/numberSum.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nowcoder/滴滴/subject/main.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../nowcoder/美团/MT14.整数加法/addInteger.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../nowcoder/美团/MT15.病毒传播/spread.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../nowcoder/美团/MT30.序列操作/operation.go" afterDir="false" />
@@ -88,6 +100,7 @@
       <change afterPath="$PROJECT_DIR$/../nowcoder/美团/MT45.最长全1串/long.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../nowcoder/美团/MT49.路由器/mt49.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../nowcoder/美团/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nowcoder/美团/选调计划/main.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../面试准备/ByteDanceLeetCode/拓展练习/字典树.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../面试准备/ByteDanceLeetCode/挑战字符串/复原IP地址/restoreIpAddresses.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../面试准备/ByteDanceLeetCode/挑战字符串/无重复字符的最长子串/README.md" afterDir="false" />
@@ -154,19 +167,81 @@
       <change afterPath="$PROJECT_DIR$/../../面试准备/grpc/server/copyrightClient.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../面试准备/grpc/server/server.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/二分查找/x的平方根/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/二分查找/69. x 的平方根/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/二分查找/x的平方根/mySqrt.go" beforeDir="false" afterPath="$PROJECT_DIR$/二分查找/69. x 的平方根/mySqrt.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/剑指Offer/剑指 Offer 45. 把数组排成最小的数/minNumber.go" beforeDir="false" afterPath="$PROJECT_DIR$/剑指Offer/剑指 Offer 45. 把数组排成最小的数/minNumber.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/动态规划/零钱兑换/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/动态规划/零钱兑换/coinChange.go" beforeDir="false" afterPath="$PROJECT_DIR$/动态规划/322. 零钱兑换/coinChange.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/双指针的使用/荷兰旗问题/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/双指针的使用/荷兰旗问题/sortColors.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/二叉树/112. 路径总和/hasPathSum.go" beforeDir="false" afterPath="$PROJECT_DIR$/二叉树/112. 路径总和/hasPathSum.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/二叉树/二叉堆和优先队列/priorityQueue.go" beforeDir="false" afterPath="$PROJECT_DIR$/二叉树/二叉堆和优先队列/priorityQueue.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/二叉树/二叉树的镜像/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/二叉树/面试题27. 二叉树的镜像/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/二叉树/二叉树的镜像/mirrorTree.go" beforeDir="false" afterPath="$PROJECT_DIR$/二叉树/面试题27. 二叉树的镜像/mirrorTree.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/二叉树/树的子结构/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/二叉树/面试题26. 树的子结构/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/二叉树/树的子结构/isSubStructure.go" beforeDir="false" afterPath="$PROJECT_DIR$/二叉树/面试题26. 树的子结构/isSubStructure.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/剑指Offer/剑指 Offer 10- I. 斐波那契数列/fib.go" beforeDir="false" afterPath="$PROJECT_DIR$/剑指Offer/剑指 Offer 10- I. 斐波那契数列/fib.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/剑指Offer/剑指 Offer 20. 表示数值的字符串/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/剑指Offer/剑指 Offer 20. 表示数值的字符串/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/剑指Offer/剑指 Offer 20. 表示数值的字符串/isNumber.go" beforeDir="false" afterPath="$PROJECT_DIR$/剑指Offer/剑指 Offer 20. 表示数值的字符串/isNumber.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/动态规划/198. 打家劫舍/rob.go" beforeDir="false" afterPath="$PROJECT_DIR$/动态规划/198. 打家劫舍/rob.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/动态规划/53. 最大子序和/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/动态规划/53. 最大子序和/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/动态规划/53. 最大子序和/maxSubArray.go" beforeDir="false" afterPath="$PROJECT_DIR$/动态规划/53. 最大子序和/maxSubArray.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/动态规划/按摩师/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/动态规划/面试题 17.16. 按摩师/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/动态规划/按摩师/massage.go" beforeDir="false" afterPath="$PROJECT_DIR$/动态规划/面试题 17.16. 按摩师/massage.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/动态规划/最长公共子序列/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/动态规划/最长公共子序列/test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/动态规划/最长回文子串/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/双指针/5. 最长回文子串/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/动态规划/最长回文子串/longestPalindrome.go" beforeDir="false" afterPath="$PROJECT_DIR$/双指针/5. 最长回文子串/longestPalindrome.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/动态规划/编辑距离/minDistance.go" beforeDir="false" afterPath="$PROJECT_DIR$/动态规划/72. 编辑距离/minDistance.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/双指针的使用/1. 两数之和/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/双指针/1. 两数之和/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/双指针的使用/1. 两数之和/twoSum.go" beforeDir="false" afterPath="$PROJECT_DIR$/双指针/1. 两数之和/twoSum.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/双指针的使用/1437. 是否所有 1 都至少相隔 k 个元素/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/双指针/1437. 是否所有 1 都至少相隔 k 个元素/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/双指针的使用/1437. 是否所有 1 都至少相隔 k 个元素/kLengthApart.go" beforeDir="false" afterPath="$PROJECT_DIR$/双指针/1437. 是否所有 1 都至少相隔 k 个元素/kLengthApart.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/双指针的使用/16. 最接近的三数之和/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/双指针/16. 最接近的三数之和/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/双指针的使用/16. 最接近的三数之和/threeSumClosest.go" beforeDir="false" afterPath="$PROJECT_DIR$/双指针/16. 最接近的三数之和/threeSumClosest.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/双指针的使用/167. 两数之和 II - 输入有序数组/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/双指针/167. 两数之和 II - 输入有序数组/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/双指针的使用/167. 两数之和 II - 输入有序数组/twoSum.go" beforeDir="false" afterPath="$PROJECT_DIR$/双指针/167. 两数之和 II - 输入有序数组/twoSum.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/双指针的使用/18. 四数之和/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/双指针/18. 四数之和/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/双指针的使用/18. 四数之和/fourSum.go" beforeDir="false" afterPath="$PROJECT_DIR$/双指针/18. 四数之和/fourSum.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/双指针的使用/26. 删除排序数组中的重复项/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/双指针/26. 删除排序数组中的重复项/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/双指针的使用/26. 删除排序数组中的重复项/removeDuplicates.go" beforeDir="false" afterPath="$PROJECT_DIR$/双指针/26. 删除排序数组中的重复项/removeDuplicates.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/双指针的使用/27. 移除元素/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/双指针/27. 移除元素/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/双指针的使用/27. 移除元素/removeElement.go" beforeDir="false" afterPath="$PROJECT_DIR$/双指针/27. 移除元素/removeElement.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/双指针的使用/287. 寻找重复数/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/双指针/287. 寻找重复数/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/双指针的使用/287. 寻找重复数/findDuplicate.go" beforeDir="false" afterPath="$PROJECT_DIR$/双指针/287. 寻找重复数/findDuplicate.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/双指针的使用/454. 四数相加 II/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/双指针/454. 四数相加 II/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/双指针的使用/454. 四数相加 II/fourSumCount.go" beforeDir="false" afterPath="$PROJECT_DIR$/双指针/454. 四数相加 II/fourSumCount.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/双指针的使用/647. 回文子串/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/双指针/647. 回文子串/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/双指针的使用/647. 回文子串/countSubstrings.go" beforeDir="false" afterPath="$PROJECT_DIR$/双指针/647. 回文子串/countSubstrings.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/双指针的使用/75. 颜色分类/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/双指针/75. 颜色分类/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/双指针的使用/75. 颜色分类/sortColors.go" beforeDir="false" afterPath="$PROJECT_DIR$/双指针/75. 颜色分类/sortColors.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/双指针的使用/88. 合并两个有序数组/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/双指针/88. 合并两个有序数组/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/双指针的使用/88. 合并两个有序数组/merge.go" beforeDir="false" afterPath="$PROJECT_DIR$/双指针/88. 合并两个有序数组/merge.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/回溯法/39. 组合总和/combinationSum.go" beforeDir="false" afterPath="$PROJECT_DIR$/回溯法/39. 组合总和/combinationSum.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/回溯法/46. 全排列/permute.go" beforeDir="false" afterPath="$PROJECT_DIR$/回溯法/46. 全排列/permute.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/回溯法/78. 子集/subsets.go" beforeDir="false" afterPath="$PROJECT_DIR$/回溯法/78. 子集/subsets.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/回溯法/全排列问题/permute.go" beforeDir="false" afterPath="$PROJECT_DIR$/回溯法/46. 全排列/permute.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数组/238. 除自身以外数组的乘积/productExceptSelf.go" beforeDir="false" afterPath="$PROJECT_DIR$/数组/238. 除自身以外数组的乘积/productExceptSelf.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数组/将数组分成和相等的三个部分/canThreePartsEqualSum.go" beforeDir="false" afterPath="$PROJECT_DIR$/数组/1013. 将数组分成和相等的三个部分/canThreePartsEqualSum.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/栈问题/有效的括号/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/栈问题/20. 有效的括号/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/栈问题/有效的括号/isValid.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/回溯法/排列组合1/pailie.go" beforeDir="false" afterPath="$PROJECT_DIR$/回溯法/排列组合/pailie.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/广度(深度)优先搜索/地图分析/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/广度(深度)优先搜索/1162. 地图分析/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/广度(深度)优先搜索/地图分析/maxDistance.go" beforeDir="false" afterPath="$PROJECT_DIR$/广度(深度)优先搜索/1162. 地图分析/maxDistance.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/广度(深度)优先搜索/岛屿的最大面积/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/广度(深度)优先搜索/695. 岛屿的最大面积/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/广度(深度)优先搜索/岛屿的最大面积/maxAreaOfIsland.go" beforeDir="false" afterPath="$PROJECT_DIR$/广度(深度)优先搜索/695. 岛屿的最大面积/maxAreaOfIsland.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/广度(深度)优先搜索/机器人的运动范围/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/广度(深度)优先搜索/面试题13. 机器人的运动范围/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/广度(深度)优先搜索/机器人的运动范围/movingCount.go" beforeDir="false" afterPath="$PROJECT_DIR$/广度(深度)优先搜索/面试题13. 机器人的运动范围/movingCount.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据结构/LRU缓存机制/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/数据结构/LRU缓存机制/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/数组/645. 错误的集合/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/数组/645. 错误的集合/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/数组/645. 错误的集合/findErrorNums.go" beforeDir="false" afterPath="$PROJECT_DIR$/数组/645. 错误的集合/findErrorNums.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/简单题/9. 回文数/isPalindrome.go" beforeDir="false" afterPath="$PROJECT_DIR$/模拟/9. 回文数/isPalindrome.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/简单题/三维形体的表面积/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/模拟/三维形体的表面积/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/简单题/三维形体的表面积/surfaceArea.go" beforeDir="false" afterPath="$PROJECT_DIR$/模拟/三维形体的表面积/surfaceArea.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/简单题/卡牌分组/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/模拟/卡牌分组/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/简单题/卡牌分组/hasGroupsSizeX.go" beforeDir="false" afterPath="$PROJECT_DIR$/模拟/卡牌分组/hasGroupsSizeX.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/简单题/多数元素/majorityElement.go" beforeDir="false" afterPath="$PROJECT_DIR$/模拟/多数元素/majorityElement.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/简单题/字符串压缩/REDAME.md" beforeDir="false" afterPath="$PROJECT_DIR$/模拟/面试题 01.06. 字符串压缩/REDAME.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/简单题/字符串压缩/compressString.go" beforeDir="false" afterPath="$PROJECT_DIR$/模拟/面试题 01.06. 字符串压缩/compressString.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/简单题/字符串的最大公因子/gcdOfStrings.go" beforeDir="false" afterPath="$PROJECT_DIR$/模拟/1071. 字符串的最大公因子/gcdOfStrings.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/简单题/拼写单词/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/模拟/拼写单词/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/简单题/拼写单词/countCharacters.go" beforeDir="false" afterPath="$PROJECT_DIR$/模拟/拼写单词/countCharacters.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/简单题/最长回文串/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/模拟/最长回文串/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/简单题/最长回文串/longestPalindrome.go" beforeDir="false" afterPath="$PROJECT_DIR$/模拟/最长回文串/longestPalindrome.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/简单题/矩形重叠/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/模拟/矩形重叠/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/简单题/矩形重叠/isRectangleOverlap.go" beforeDir="false" afterPath="$PROJECT_DIR$/模拟/矩形重叠/isRectangleOverlap.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/简单题/车的可用捕获量/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/模拟/车的可用捕获量/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/简单题/车的可用捕获量/numRookCaptures.go" beforeDir="false" afterPath="$PROJECT_DIR$/模拟/车的可用捕获量/numRookCaptures.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/链表/21. 合并两个有序链表/mergeTwoLists.go" beforeDir="false" afterPath="$PROJECT_DIR$/链表/21. 合并两个有序链表/mergeTwoLists.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/链表/92. 反转链表 II/reverseBetween.go" beforeDir="false" afterPath="$PROJECT_DIR$/链表/92. 反转链表 II/reverseBetween.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -198,11 +273,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/位运算/201. 数字范围按位与/rangeBitwiseAnd.go">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/回溯法/77. 组合/combine.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" selection-start-line="4" selection-end-line="13" selection-end-column="1" />
+            <state relative-caret-position="262">
+              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/回溯法/排列组合/pailie.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="644">
+              <caret line="52" column="13" lean-forward="true" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -227,7 +311,6 @@
       <find>max</find>
       <find>result</find>
       <find>[</find>
-      <find>]</find>
       <find>&quot;</find>
       <find>indexWindows</find>
       <find>height</find>
@@ -236,6 +319,8 @@
       <find>O</find>
       <find>right</find>
       <find>cIndex</find>
+      <find>]</find>
+      <find>tmp</find>
     </findStrings>
     <replaceStrings>
       <replace>nums</replace>
@@ -246,8 +331,6 @@
       <replace>result</replace>
       <replace>Help</replace>
       <replace>path</replace>
-      <replace>{</replace>
-      <replace>}</replace>
       <replace>'</replace>
       <replace>indexWin</replace>
       <replace>s</replace>
@@ -255,6 +338,9 @@
       <replace>'O'</replace>
       <replace>end</replace>
       <replace>k</replace>
+      <replace>{</replace>
+      <replace>}</replace>
+      <replace>res</replace>
     </replaceStrings>
   </component>
   <component name="GOROOT" path="F:\Go" />
@@ -267,61 +353,61 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/剑指Offer/剑指 Offer 40. 最小的k个数/getLeastNumbers.go" />
-        <option value="$PROJECT_DIR$/剑指Offer/剑指 Offer 42. 连续子数组的最大和/maxSubArray.go" />
-        <option value="$PROJECT_DIR$/二叉树/100. 相同的树/isSameTree.go" />
-        <option value="$PROJECT_DIR$/剑指Offer/剑指 Offer 22. 链表中倒数第k个节点/getKthFromEnd.go" />
-        <option value="$PROJECT_DIR$/剑指Offer/剑指 Offer 65. 不用加减乘除做加法/add.go" />
-        <option value="$PROJECT_DIR$/回溯法/60. 第k个排列/getPermutation.go" />
-        <option value="$PROJECT_DIR$/go语音入门/bit/bit.go" />
-        <option value="$PROJECT_DIR$/剑指Offer/剑指 Offer 53 - II. 0～n-1中缺失的数字/missingNumber.go" />
-        <option value="$PROJECT_DIR$/剑指Offer/剑指 Offer 25. 合并两个排序的链表/mergeTwoLists.go" />
-        <option value="$PROJECT_DIR$/回溯法/93. 复原IP地址/restoreIpAddresses.go" />
-        <option value="$PROJECT_DIR$/字符串问题/696. 计数二进制子串/countBinarySubstrings.go" />
-        <option value="$PROJECT_DIR$/回溯法/130. 被围绕的区域/solve.go" />
-        <option value="$PROJECT_DIR$/双指针的使用/18. 四数之和/fourSum.go" />
-        <option value="$PROJECT_DIR$/单调栈/496. 下一个更大元素 I/nextGreaterElement.go" />
-        <option value="$PROJECT_DIR$/动态规划/926. 将字符串翻转到单调递增/minFlipsMonoIncr.go" />
-        <option value="$PROJECT_DIR$/回溯法/全排列问题/permute.go" />
-        <option value="$PROJECT_DIR$/字符串问题/49. 字母异位词分组/groupAnagrams.go" />
-        <option value="$PROJECT_DIR$/单调栈/84. 柱状图中最大的矩形/largestRectangleArea.go" />
-        <option value="$PROJECT_DIR$/栈问题/有效的括号/isValid.go" />
-        <option value="$PROJECT_DIR$/单调栈/581. 最短无序连续子数组/findUnsortedSubarray.go" />
-        <option value="$PROJECT_DIR$/剑指Offer/剑指 Offer 56 - I. 数组中数字出现的次数/singleNumbers.go" />
-        <option value="$PROJECT_DIR$/动态规划/322. 零钱兑换/coinChange.go" />
-        <option value="$PROJECT_DIR$/动态规划/416. 分割等和子集/coinChange.go" />
-        <option value="$PROJECT_DIR$/动态规划/416. 分割等和子集/canPartition.go" />
-        <option value="$PROJECT_DIR$/动态规划/1029. 两地调度/twoCitySchedCost.go" />
-        <option value="$PROJECT_DIR$/广度(深度)优先搜索/733. 图像渲染/floodFill.go" />
-        <option value="$PROJECT_DIR$/动态规划/518. 零钱兑换 II/change.go" />
-        <option value="$PROJECT_DIR$/图/743. 网络延迟时间/networkDelayTime.go" />
-        <option value="$PROJECT_DIR$/二叉树/109. 有序链表转换二叉搜索树/sortedListToBST.go" />
-        <option value="$PROJECT_DIR$/回溯法/31. 下一个排列/nextPermutation.go" />
-        <option value="$PROJECT_DIR$/动态规划/647. 回文子串/countSubstrings.go" />
-        <option value="$PROJECT_DIR$/双指针的使用/75. 颜色分类/sortColors.go" />
-        <option value="$PROJECT_DIR$/双指针的使用/88. 合并两个有序数组/merge.go" />
-        <option value="$PROJECT_DIR$/数组/134. 加油站/canCompleteCircuit.go" />
-        <option value="$PROJECT_DIR$/动态规划/152. 乘积最大子数组/maxProduct.go" />
-        <option value="$PROJECT_DIR$/数学推导/166. 分数到小数/fractionToDecimal.go" />
-        <option value="$PROJECT_DIR$/剑指Offer/剑指 Offer 45. 把数组排成最小的数/minNumber.go" />
-        <option value="$PROJECT_DIR$/数组/179. 最大数/largestNumber.go" />
-        <option value="$PROJECT_DIR$/双指针的使用/454. 四数相加 II/fourSumCount.go" />
-        <option value="$PROJECT_DIR$/数组/238. 除自身以外数组的乘积/productExceptSelf.go" />
-        <option value="$PROJECT_DIR$/广度(深度)优先搜索/529. 扫雷游戏/updateBoard.go" />
-        <option value="$PROJECT_DIR$/字典树/208. 实现 Trie (前缀树)/Trie.go" />
-        <option value="$PROJECT_DIR$/二叉树/111. 二叉树的最小深度/minDepth.go" />
-        <option value="$PROJECT_DIR$/回溯法/22. 括号生成/generateParenthesis.go" />
-        <option value="$PROJECT_DIR$/广度(深度)优先搜索/679. 24 点游戏/judgePoint24.go" />
-        <option value="$PROJECT_DIR$/二分查找/69. x 的平方根/mySqrt.go" />
-        <option value="$PROJECT_DIR$/二分查找/34. 在排序数组中查找元素的第一个和最后一个位置/searchRange.go" />
-        <option value="$PROJECT_DIR$/数组/442. 数组中重复的数据/findDuplicates.go" />
-        <option value="$PROJECT_DIR$/单调栈/739. 每日温度/dailyTemperatures.go" />
-        <option value="$PROJECT_DIR$/回溯法/78. 子集/subsets.go" />
-        <option value="$PROJECT_DIR$/位运算/201. 数字范围按位与/rangeBitwiseAnd.go" />
+        <option value="$PROJECT_DIR$/链表/21. 合并两个有序链表/mergeTwoLists.go" />
+        <option value="$PROJECT_DIR$/链表/148. 排序链表/sortList.go" />
+        <option value="$PROJECT_DIR$/数组/406. 根据身高重建队列/reconstructQueue.go" />
+        <option value="$PROJECT_DIR$/动态规划/221. 最大正方形/maximalSquare.go" />
+        <option value="$PROJECT_DIR$/数组/347. 前 K 个高频元素/main.go" />
+        <option value="$PROJECT_DIR$/数组/347. 前 K 个高频元素/topKFrequent.go" />
+        <option value="$PROJECT_DIR$/二叉树/538. 把二叉搜索树转换为累加树/convertBST.go" />
+        <option value="$PROJECT_DIR$/二叉树/二叉树的中序遍历/inorderTraversal.go" />
+        <option value="$PROJECT_DIR$/二叉树/二叉树的前序遍历/preorderTraversal.go" />
+        <option value="$PROJECT_DIR$/二叉树/二叉树的后序遍历/postorderTraversal.go" />
+        <option value="$PROJECT_DIR$/二叉树/二叉堆和优先队列/priorityQueue.go" />
+        <option value="$PROJECT_DIR$/广度(深度)优先搜索/199. 二叉树的右视图/rightSideView.go" />
+        <option value="$PROJECT_DIR$/动态规划/55. 跳跃游戏/canJump.go" />
+        <option value="$PROJECT_DIR$/二分查找/162. 寻找峰值/findPeakElement.go" />
+        <option value="$PROJECT_DIR$/图/332. 重新安排行程/findItinerary.go" />
+        <option value="$PROJECT_DIR$/动态规划/122. 买卖股票的最佳时机 II/maxProfit.go" />
+        <option value="$PROJECT_DIR$/双指针/38. 外观数列/countAndSay.go" />
+        <option value="$PROJECT_DIR$/数学推导/204. 计数质数/countPrimes.go" />
+        <option value="$PROJECT_DIR$/双指针/202. 快乐数/isHappy.go" />
+        <option value="$PROJECT_DIR$/模拟/657. 机器人能否返回原点/judgeCircle.go" />
+        <option value="$PROJECT_DIR$/字符串问题/557. 反转字符串中的单词 III/reverseWords.go" />
+        <option value="$PROJECT_DIR$/剑指Offer/剑指 Offer 38. 字符串的排列/permutation.go" />
+        <option value="$PROJECT_DIR$/剑指Offer/剑指 Offer 10- I. 斐波那契数列/fib.go" />
+        <option value="$PROJECT_DIR$/回溯法/46. 全排列/permute.go" />
+        <option value="$PROJECT_DIR$/图/841. 钥匙和房间/canVisitAllRooms.go" />
+        <option value="$PROJECT_DIR$/链表/2. 两数相加/addTwoNumbers.go" />
+        <option value="$PROJECT_DIR$/链表/61. 旋转链表/rotateRight.go" />
+        <option value="$PROJECT_DIR$/回溯法/131. 分割回文串/partition.go" />
+        <option value="$PROJECT_DIR$/位运算/231. 2的幂/isPowerOfTwo.go" />
+        <option value="$PROJECT_DIR$/模拟/575. 分糖果/distributeCandies.go" />
+        <option value="$PROJECT_DIR$/数组/41. 缺失的第一个正数/firstMissingPositive.go" />
+        <option value="$PROJECT_DIR$/剑指Offer/剑指 Offer 20. 表示数值的字符串/isNumber.go" />
+        <option value="$PROJECT_DIR$/数组/645. 错误的集合/findErrorNums.go" />
+        <option value="$PROJECT_DIR$/链表/160. 相交链表/getIntersectionNode.go" />
+        <option value="$PROJECT_DIR$/动态规划/53. 最大子序和/maxSubArray.go" />
+        <option value="$PROJECT_DIR$/链表/92. 反转链表 II/reverseBetween.go" />
+        <option value="$PROJECT_DIR$/模拟/66. 加一/plusOne.go" />
+        <option value="$PROJECT_DIR$/二叉树/98. 验证二叉搜索树/isValidBST.go" />
+        <option value="$PROJECT_DIR$/二叉树/105. 从前序与中序遍历序列构造二叉树/buildTree.go" />
+        <option value="$PROJECT_DIR$/二叉树/112. 路径总和/hasPathSum.go" />
+        <option value="$PROJECT_DIR$/二叉树/257. 二叉树的所有路径/binaryTreePaths.go" />
+        <option value="$PROJECT_DIR$/数据结构/155. 最小栈/MinStack.go" />
+        <option value="$PROJECT_DIR$/二叉树/面试题27. 二叉树的镜像/mirrorTree.go" />
+        <option value="$PROJECT_DIR$/模拟/7. 整数反转/reverse.go" />
+        <option value="$PROJECT_DIR$/动态规划/198. 打家劫舍/rob.go" />
+        <option value="$PROJECT_DIR$/二叉树/107. 二叉树的层次遍历 II/levelOrderBottom.go" />
+        <option value="$PROJECT_DIR$/模拟/字符串的最大公因子/gcdOfStrings.go" />
+        <option value="$PROJECT_DIR$/模拟/1323. 6 和 9 组成的最大数字/maximum69Number.go" />
+        <option value="$PROJECT_DIR$/模拟/1071. 字符串的最大公因子/gcdOfStrings.go" />
+        <option value="$PROJECT_DIR$/模拟/面试题 01.06. 字符串压缩/compressString.go" />
+        <option value="$PROJECT_DIR$/回溯法/77. 组合/combine.go" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="113" />
     <option name="y" value="39" />
     <option name="width" value="1204" />
@@ -334,22 +420,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="位运算" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -367,16 +438,16 @@
     <property name="settings.editor.selected.configurable" value="go.sdk" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\我的文档\我的文档\MyBlog\leetcode\数据结构" />
-      <recent name="D:\我的文档\MyBlog\leetcode\回溯法\全排列问题" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\我的文档\我的文档\MyBlog\leetcode\双指针" />
       <recent name="F:\我的文档\我的文档\MyBlog\leetcode\双指针的使用" />
       <recent name="F:\我的文档\我的文档\MyBlog\leetcode\字符串问题" />
       <recent name="F:\我的文档\我的文档\MyBlog\leetcode\剑指Offer" />
       <recent name="F:\我的文档\我的文档\MyBlog\leetcode\随机算法\水塘抽样算法" />
-      <recent name="F:\我的文档\我的文档\MyBlog\leetcode\随机算法" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\我的文档\我的文档\MyBlog\leetcode\数据结构" />
+      <recent name="D:\我的文档\MyBlog\leetcode\回溯法\全排列问题" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -391,73 +462,72 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build rangeBitwiseAnd.go">
-    <configuration name="go build dailyTemperatures.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build pailie.go">
+    <configuration name="go build combine.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/单调栈/739. 每日温度/dailyTemperatures.go" />
+      <filePath value="$PROJECT_DIR$/回溯法/77. 组合/combine.go" />
       <package value="leetcode" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build findDuplicates.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build gcdOfStrings.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/数组/442. 数组中重复的数据/findDuplicates.go" />
+      <filePath value="$PROJECT_DIR$/模拟/字符串的最大公因子/gcdOfStrings.go" />
       <package value="leetcode" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build rangeBitwiseAnd.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build levelOrderBottom.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/位运算/201. 数字范围按位与/rangeBitwiseAnd.go" />
+      <filePath value="$PROJECT_DIR$/二叉树/107. 二叉树的层次遍历 II/levelOrderBottom.go" />
       <package value="leetcode" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build searchRange.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build maximum69Number.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/二分查找/34. 在排序数组中查找元素的第一个和最后一个位置/searchRange.go" />
+      <filePath value="$PROJECT_DIR$/模拟/1323. 6 和 9 组成的最大数字/maximum69Number.go" />
       <package value="leetcode" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build subsets.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build pailie.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/回溯法/78. 子集/subsets.go" />
+      <filePath value="$PROJECT_DIR$/回溯法/排列组合1/pailie.go" />
       <package value="leetcode" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build rangeBitwiseAnd.go" />
-        <item itemvalue="Go Build.go build subsets.go" />
-        <item itemvalue="Go Build.go build dailyTemperatures.go" />
-        <item itemvalue="Go Build.go build findDuplicates.go" />
-        <item itemvalue="Go Build.go build searchRange.go" />
+        <item itemvalue="Go Build.go build pailie.go" />
+        <item itemvalue="Go Build.go build combine.go" />
+        <item itemvalue="Go Build.go build maximum69Number.go" />
+        <item itemvalue="Go Build.go build gcdOfStrings.go" />
+        <item itemvalue="Go Build.go build levelOrderBottom.go" />
       </list>
     </recent_temporary>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49669966" visible="true" weight="0.30203864" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49669966" visible="true" weight="0.3106223" />
       <window_info id="Structure" order="1" sideWeight="0.5033003" side_tool="true" weight="0.3277897" />
       <window_info id="Favorites" order="2" sideWeight="0.50256413" side_tool="true" weight="0.29375952" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49731758" visible="true" weight="0.32666665" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4967811" weight="0.32666665" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38555557" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -465,7 +535,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5026824" side_tool="true" weight="0.32666665" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5032189" side_tool="true" weight="0.32666665" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -480,6 +550,21 @@
     <proxy>https://proxy.golang.org</proxy>
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/广度(深度)优先搜索/491. 递增子序列/findSubsequences.go</url>
+          <line>19</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/模拟/1323. 6 和 9 组成的最大数字/maximum69Number.go</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="GoApplicationRunConfiguration">
         <watch expression="*(*&quot;main.ListNode&quot;)(824633983472)" language="go" />
@@ -497,19 +582,7 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/二叉树/二叉堆和优先队列/priorityQueue.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-508" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/剑指Offer/剑指 Offer 07. 重建二叉树/buildTree.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="40" selection-start-line="40" selection-end-line="56" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/回溯法/60. 第k个排列/README.md">
+    <entry file="file://$PROJECT_DIR$/数组/645. 错误的集合/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
@@ -517,242 +590,316 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/回溯法/60. 第k个排列/getPermutation.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/回溯法/31. 下一个排列/nextPermutation.go">
+    <entry file="file://$PROJECT_DIR$/数组/645. 错误的集合/findErrorNums.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="242">
+          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/二叉树/109. 有序链表转换二叉搜索树/sortedListToBST.go">
+    <entry file="file://$PROJECT_DIR$/链表/2. 两数相加/addTwoNumbers.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-376">
-          <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+        <state relative-caret-position="372">
+          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/剑指Offer/剑指 Offer 55 - II. 平衡二叉树/isBalanced.go">
+    <entry file="file://$PROJECT_DIR$/剑指Offer/剑指 Offer 52. 两个链表的第一个公共节点/getIntersectionNode.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        <state relative-caret-position="42">
+          <caret line="51" selection-start-line="51" selection-end-line="85" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/剑指Offer/剑指 Offer 31. 栈的压入、弹出序列/validateStackSequences.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/剑指Offer/剑指 Offer 60. n个骰子的点数/README.md">
+    <entry file="file://$PROJECT_DIR$/动态规划/53. 最大子序和/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/链表/86. 分隔链表/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/链表/86. 分隔链表/partition.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-596">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/链表/链表反转/reverseList.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="15" column="15" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/模拟/66. 加一/plusOne.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/动态规划/53. 最大子序和/maxSubArray.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/链表/160. 相交链表/getIntersectionNode.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/二叉树/二叉树的中序遍历/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/二叉树/二叉树的中序遍历/inorderTraversal.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/二叉树/105. 从前序与中序遍历序列构造二叉树/buildTree.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/随机算法/水塘抽样算法/reservoir.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/二叉树/236. 二叉树的最近公共祖先/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/随机算法/水塘抽样算法/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/二叉树/112. 路径总和/hasPathSum.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="28" column="25" lean-forward="true" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/二叉树/236. 二叉树的最近公共祖先/lowestCommonAncestor.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构/队列的最大值/MaxQueue.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-970" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构/LRU缓存机制/LRUCache.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1210">
+          <caret line="58" column="1" lean-forward="true" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构/155. 最小栈/MinStack.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="36" column="33" lean-forward="true" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/链表/92. 反转链表 II/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/动态规划/221. 最大正方形/maximalSquare.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/二叉树/257. 二叉树的所有路径/binaryTreePaths.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="946">
+          <caret line="43" column="30" lean-forward="true" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
+          <folding>
+            <element signature="e#14#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/链表/142. 环形链表 II/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/随机算法/洗牌算法/knuth.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/二叉树/面试题27. 二叉树的镜像/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/模拟/7. 整数反转/reverse.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/二叉树/面试题27. 二叉树的镜像/mirrorTree.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/动态规划/122. 买卖股票的最佳时机 II/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/二叉树/100. 相同的树/isSameTree.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-264" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/二叉树/95. 不同的二叉搜索树 II/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/二叉树/95. 不同的二叉搜索树 II/generateTrees.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1012">
+          <caret line="46" column="1" lean-forward="true" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/二叉树/面试题26. 树的子结构/isSubStructure.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="25" column="10" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/动态规划/198. 打家劫舍/rob.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/剑指Offer/剑指 Offer 63. 股票的最大利润/maxProfit.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/回溯法/78. 子集/subsets.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1142">
+          <caret line="69" column="30" selection-start-line="69" selection-start-column="27" selection-end-line="69" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数组/48. 旋转图像/rotate.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/链表/92. 反转链表 II/reverseBetween.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/二叉树/111. 二叉树的最小深度/minDepth.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="48" selection-start-line="48" selection-end-line="70" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/二叉树/107. 二叉树的层次遍历 II/levelOrderBottom.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/排序算法/快速排序/quickSort.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="746">
-          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+        <state relative-caret-position="174">
+          <caret line="65" column="9" lean-forward="true" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/剑指Offer/剑指 Offer 60. n个骰子的点数/twoSum.go">
+    <entry file="file://$PROJECT_DIR$/二叉树/98. 验证二叉搜索树/isValidBST.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="48" column="10" lean-forward="true" selection-start-line="48" selection-start-column="10" selection-end-line="48" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/图/743. 网络延迟时间/networkDelayTime.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-154">
-          <caret line="47" column="43" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/剑指Offer/剑指 Offer 59 - I. 滑动窗口的最大值/maxSlidingWindow.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-66" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/双指针的使用/荷兰旗问题/README.md" />
-    <entry file="file://$PROJECT_DIR$/双指针的使用/荷兰旗问题/sortColors.go" />
-    <entry file="file://$PROJECT_DIR$/动态规划/152. 乘积最大子数组/maxProduct.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数组/134. 加油站/canCompleteCircuit.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/双指针的使用/88. 合并两个有序数组/merge.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/双指针的使用/75. 颜色分类/sortColors.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/双指针的使用/647. 回文子串/countSubstrings.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/剑指Offer/剑指 Offer 45. 把数组排成最小的数/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数学推导/166. 分数到小数/fractionToDecimal.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="746">
-          <caret line="51" column="20" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
-          <folding>
-            <element signature="e#14#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/剑指Offer/剑指 Offer 45. 把数组排成最小的数/minNumber.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数组/179. 最大数/largestNumber.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" selection-start-line="7" selection-end-line="33" selection-end-column="1" />
-          <folding>
-            <element signature="e#14#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数组/238. 除自身以外数组的乘积/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-47" />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/广度(深度)优先搜索/529. 扫雷游戏/updateBoard.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/双指针的使用/454. 四数相加 II/fourSumCount.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数组/238. 除自身以外数组的乘积/productExceptSelf.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/双指针的使用/1437. 是否所有 1 都至少相隔 k 个元素/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/双指针的使用/1437. 是否所有 1 都至少相隔 k 个元素/kLengthApart.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/二叉树/111. 二叉树的最小深度/minDepth.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="56" column="3" lean-forward="true" selection-start-line="56" selection-start-column="3" selection-end-line="56" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/字典树/208. 实现 Trie (前缀树)/Trie.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/剑指Offer/剑指 Offer 55 - I. 二叉树的深度/maxDepth.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/二叉树/101. 对称二叉树/isSymmetric.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="59" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/广度(深度)优先搜索/679. 24 点游戏/judgePoint24.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/回溯法/22. 括号生成/generateParenthesis.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/二分查找/69. x 的平方根/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/二分查找/69. x 的平方根/mySqrt.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        <state relative-caret-position="196">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
           <folding>
             <element signature="e#14#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/字符串问题/394. 字符串解码/decodeString.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/二分查找/35. 搜索插入位置/searchInsert.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/剑指Offer/剑指 Offer 44. 数字序列中某一位的数字/README.md">
+    <entry file="file://$PROJECT_DIR$/模拟/面试题 01.06. 字符串压缩/REDAME.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
@@ -760,70 +907,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/剑指Offer/剑指 Offer 53 - I. 在排序数组中查找数字 I/search.go">
+    <entry file="file://$PROJECT_DIR$/模拟/1323. 6 和 9 组成的最大数字/maximum69Number.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        <state relative-caret-position="330">
+          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/数组/1013. 将数组分成和相等的三个部分/canThreePartsEqualSum.go">
+    <entry file="file://$PROJECT_DIR$/模拟/面试题 01.06. 字符串压缩/compressString.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="26" />
+        <state relative-caret-position="462">
+          <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/剑指Offer/剑指 Offer 03. 数组中重复的数字/findRepeatNumber.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/二分查找/34. 在排序数组中查找元素的第一个和最后一个位置/searchRange.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/剑指Offer/剑指 Offer 44. 数字序列中某一位的数字/findNthDigit.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数组/442. 数组中重复的数据/findDuplicates.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/单调栈/739. 每日温度/dailyTemperatures.go">
+    <entry file="file://$PROJECT_DIR$/模拟/1071. 字符串的最大公因子/gcdOfStrings.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
-          <caret line="4" selection-start-line="4" selection-end-line="21" selection-end-column="1" />
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/调度和贪心算法/621. 任务调度器/REAMDE.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/回溯法/78. 子集/subsets.go">
+    <entry file="file://$PROJECT_DIR$/剑指Offer/剑指 Offer 49. 丑数/nthUglyNumber.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-266">
-          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        <state relative-caret-position="594">
+          <caret line="30" column="19" lean-forward="true" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/位运算/201. 数字范围按位与/rangeBitwiseAnd.go">
+    <entry file="file://$PROJECT_DIR$/回溯法/77. 组合/combine.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" selection-start-line="4" selection-end-line="13" selection-end-column="1" />
+        <state relative-caret-position="262">
+          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/回溯法/排列组合/pailie.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="52" column="13" lean-forward="true" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
         </state>
       </provider>
     </entry>

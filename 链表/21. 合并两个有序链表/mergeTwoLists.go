@@ -20,7 +20,6 @@ func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
 	result := prehead
 
 	for l1 != nil && l2 != nil {
-
 		if l1.Val < l2.Val {
 			prehead.Next = l1
 			l1 = l1.Next

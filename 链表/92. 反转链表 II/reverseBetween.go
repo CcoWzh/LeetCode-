@@ -14,6 +14,8 @@ type ListNode struct {
  *     Next *ListNode
  * }
  */
+// 1->2->3->4->5->6
+//res i     j
 func reverseBetween(head *ListNode, m int, n int) *ListNode {
 	//设置一个哨兵节点，防止m=1的情况
 	//这是一个坑，不加的话，通不过所以的测试用例的
