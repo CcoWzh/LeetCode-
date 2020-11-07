@@ -32,9 +32,9 @@ func backtrack(selectList []int, tarck []int, curSum int, target int, index int)
 		if curSum+temp > target {
 			continue
 		}
-		tarck = append(tarck, selectList[i])
+		tarck = append(tarck, selectList[i]) //做选择
 		backtrack(delete(selectList, i), tarck, curSum+temp, target, i)
-		tarck = tarck[:len(tarck)-1]
+		tarck = tarck[:len(tarck)-1] //取消选择
 		//除重复,如：1,1,1,5,6；去除1,1,1
 		for i+1 <= len(selectList)-1 && selectList[i+1] == temp {
 			i++
@@ -46,12 +46,10 @@ func delete(nums []int, i int) []int {
 	if i >= len(nums) {
 		return nil
 	}
-	result1 := make([]int, len(nums))
-	copy(result1, nums)
-	temp := result1[i+1:]
-	result1 = result1[:i]
-	result1 = append(result1, temp...)
-	return result1
+	res := make([]int, len(nums))
+	copy(res, nums)
+	res = append(res[:i], res[i+1:]...)
+	return res
 }
 
 func main() {

@@ -21,7 +21,6 @@ func backtrack(nums, track []int, n int) {
 	//触发结束条件
 	if len(track) == n {
 		result = append(result, track)
-		//fmt.Println("result is ",result)
 		return
 	}
 	for i := 0; i < len(nums); i++ {
@@ -31,8 +30,6 @@ func backtrack(nums, track []int, n int) {
 		copy(buf, nums[0:i])      //----都得先保存当前路径
 		copy(buf[i:], nums[i+1:]) // 去除了第i个元素
 		//进⼊下⼀层决策树
-		//fmt.Println("buf is ", buf)
-		//fmt.Println("track is ", track)
 		backtrack(buf, track, n)
 		//取消选择
 		track = track[:len(track)-1]
@@ -40,6 +37,6 @@ func backtrack(nums, track []int, n int) {
 }
 
 func main() {
-	nums := []int{4, 6, 7, 7}
+	nums := []int{4, 6, 7}
 	fmt.Println(permute(nums))
 }

@@ -29,6 +29,6 @@ func compressString(S string) string {
 }
 
 func main() {
-	S := "bb"
+	S := "bbbbbe"
 	fmt.Println(compressString(S))
 }

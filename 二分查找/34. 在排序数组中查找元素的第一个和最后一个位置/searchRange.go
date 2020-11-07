@@ -12,9 +12,7 @@ func searchRange(nums []int, target int) []int {
 	for left < right {
 		mid := left + (right-left)/2
 		cur := nums[mid]
-		if cur == target {
-			right = mid
-		} else if cur > target {
+		if cur >= target {
 			right = mid
 		} else {
 			left = mid + 1
@@ -41,6 +39,6 @@ func searchRange(nums []int, target int) []int {
 
 func main() {
 	nums := []int{5, 7, 7, 8, 8, 8}
-	target := 6
+	target := 8
 	fmt.Println(searchRange(nums, target))
 }

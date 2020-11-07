@@ -39,7 +39,7 @@ func main() {
 	link1 := ListNode{1, &link2}
 
 	link1.PrintLink()
-	newLink := deleteDuplicates(&link1)
+	newLink := deleteDuplicates1(&link1)
 	newLink.PrintLink()
 
 }
@@ -78,3 +78,23 @@ func (head *ListNode) PrintLink() {
 //	}
 //	return head
 //}
+
+func deleteDuplicates1(head *ListNode) *ListNode {
+	result := &ListNode{}
+
+	res := result
+	result.Next = head
+
+	curVal := head.Val
+	for result.Next != nil {
+		if result.Next.Val == curVal {
+			result.Next = result.Next.Next
+		} else {
+			result = result.Next
+			curVal = result.Val
+		}
+
+	}
+
+	return res.Next
+}

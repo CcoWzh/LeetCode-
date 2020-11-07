@@ -11,6 +11,6 @@ func numTrees(n int) int {
 }
 
 func main() {
-	n := 3
+	n := 4
 	fmt.Println(numTrees(n))
 }
